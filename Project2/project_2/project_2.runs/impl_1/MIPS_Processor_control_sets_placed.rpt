@@ -1,0 +1,102 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Sat Oct 17 23:34:40 2020
+| Host         : LAPTOP-G9TTQNP0 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file MIPS_Processor_control_sets_placed.rpt
+| Design       : MIPS_Processor
+| Device       : xc7a35t
+-------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    24 |
+|    Minimum number of control sets                        |    24 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    13 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    24 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     0 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    24 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             265 |          118 |
+| No           | No                    | Yes                    |              58 |           14 |
+| No           | Yes                   | No                     |              32 |           15 |
+| Yes          | No                    | No                     |             496 |          208 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+------------------------------------------------------+--------------------------------+------------------+----------------+
+|  Clock Signal  |                     Enable Signal                    |        Set/Reset Signal        | Slice Load Count | Bel Load Count |
++----------------+------------------------------------------------------+--------------------------------+------------------+----------------+
+|  clk_IBUF_BUFG |                                                      | MemoryStg/mem/ALUOutMin_reg[6] |                7 |             16 |
+|  clk_IBUF_BUFG |                                                      | FetchStage/Instmem/p_0_in      |                8 |             16 |
+|  clk_IBUF_BUFG | MemoryStg/mem/seven_seg                              |                                |                4 |             16 |
+| ~clk_IBUF_BUFG | DecodeStage/regfile/module_gen[12].module/and_out_12 |                                |               14 |             32 |
+| ~clk_IBUF_BUFG | DecodeStage/regfile/module_gen[6].module/and_out_6   |                                |               16 |             32 |
+| ~clk_IBUF_BUFG | DecodeStage/regfile/module_gen[10].module/and_out_10 |                                |               11 |             32 |
+| ~clk_IBUF_BUFG | DecodeStage/regfile/module_gen[7].module/and_out_7   |                                |               12 |             32 |
+| ~clk_IBUF_BUFG | DecodeStage/regfile/module_gen[11].module/and_out_11 |                                |               12 |             32 |
+| ~clk_IBUF_BUFG | DecodeStage/regfile/module_gen[15].module/and_out_15 |                                |               13 |             32 |
+| ~clk_IBUF_BUFG | DecodeStage/regfile/module_gen[1].module/and_out_1   |                                |               16 |             32 |
+| ~clk_IBUF_BUFG | DecodeStage/regfile/module_gen[2].module/and_out_2   |                                |               15 |             32 |
+| ~clk_IBUF_BUFG | DecodeStage/regfile/module_gen[8].module/and_out_8   |                                |               13 |             32 |
+| ~clk_IBUF_BUFG | DecodeStage/regfile/module_gen[9].module/and_out_9   |                                |               12 |             32 |
+| ~clk_IBUF_BUFG | DecodeStage/regfile/module_gen[13].module/and_out_13 |                                |               13 |             32 |
+| ~clk_IBUF_BUFG | DecodeStage/regfile/module_gen[14].module/and_out_14 |                                |               11 |             32 |
+| ~clk_IBUF_BUFG | DecodeStage/regfile/module_gen[3].module/and_out_3   |                                |               17 |             32 |
+| ~clk_IBUF_BUFG | DecodeStage/regfile/module_gen[4].module/and_out_4   |                                |               13 |             32 |
+| ~clk_IBUF_BUFG | DecodeStage/regfile/module_gen[5].module/and_out_5   |                                |               16 |             32 |
+|  clk_IBUF_BUFG |                                                      | rst_IBUF                       |               14 |             58 |
+|  clk_IBUF_BUFG | MemoryStg/mem/mips_mem_reg_256_511_0_0_i_1_n_0       |                                |               32 |            128 |
+|  clk_IBUF_BUFG | MemoryStg/mem/mips_mem_reg_512_767_0_0_i_1_n_0       |                                |               32 |            128 |
+|  clk_IBUF_BUFG | MemoryStg/mem/mips_mem_reg_768_1023_0_0_i_1_n_0      |                                |               32 |            128 |
+|  clk_IBUF_BUFG | MemoryStg/mem/mips_mem_reg_0_255_0_0_i_1_n_0         |                                |               32 |            128 |
+|  clk_IBUF_BUFG |                                                      |                                |              118 |            267 |
++----------------+------------------------------------------------------+--------------------------------+------------------+----------------+
+
+

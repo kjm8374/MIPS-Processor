@@ -1,0 +1,7 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+ERROR: Index 1027 out of bound 0 to 1023
+Time: 52930 ns  Iteration: 1  Process: /MIPS_Processor_tb/uut/FetchStage/Instmem/line__256
+  File: D:/malho/Project1/LabProject/Project1/Project1.srcs/sources_1/new/InstrucMemory.vhd
+
+HDL Line: D:/malho/Project1/LabProject/Project1/Project1.srcs/sources_1/new/InstrucMemory.vhd:260

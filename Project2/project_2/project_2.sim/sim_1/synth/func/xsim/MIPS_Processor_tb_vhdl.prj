@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"MIPS_Processor_tb_func_synth.vhd" \
+"../../../../../../../Project1/LabProject/Project1/Project1.srcs/sim_1/new/MIPS_Processor_tb.vhd" \
+
+# Do not sort compile order
+nosort
