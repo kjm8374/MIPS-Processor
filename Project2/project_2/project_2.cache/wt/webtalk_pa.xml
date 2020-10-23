@@ -3,7 +3,7 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Sun Oct 18 04:26:49 2020">
+<application name="pa" timeStamp="Fri Oct 23 15:32:28 2020">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="ab57cdca1e5e46efa89a6befd1d6b436" type="ProjectID"/>
 <property name="ProjectIteration" value="33" type="ProjectIteration"/>
@@ -18,11 +18,12 @@ This means code written to parse this file will need to be revisited each subseq
 </item>
 <item name="Java Command Handlers">
 <property name="AddSources" value="2" type="JavaHandler"/>
+<property name="CloseProject" value="1" type="JavaHandler"/>
 <property name="CoreView" value="3" type="JavaHandler"/>
 <property name="CustomizeCore" value="2" type="JavaHandler"/>
 <property name="EditDelete" value="2" type="JavaHandler"/>
 <property name="NewProject" value="1" type="JavaHandler"/>
-<property name="OpenProject" value="1" type="JavaHandler"/>
+<property name="OpenProject" value="2" type="JavaHandler"/>
 <property name="RecustomizeCore" value="39" type="JavaHandler"/>
 <property name="RunBitgen" value="1" type="JavaHandler"/>
 <property name="RunImplementation" value="37" type="JavaHandler"/>
@@ -44,14 +45,14 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="BaseDialog_APPLY" value="2" type="GuiHandlerData"/>
 <property name="BaseDialog_CANCEL" value="35" type="GuiHandlerData"/>
 <property name="BaseDialog_CLOSE" value="1" type="GuiHandlerData"/>
-<property name="BaseDialog_OK" value="79" type="GuiHandlerData"/>
+<property name="BaseDialog_OK" value="80" type="GuiHandlerData"/>
 <property name="BaseDialog_YES" value="5" type="GuiHandlerData"/>
 <property name="BoardChooser_BOARD_TABLE" value="4" type="GuiHandlerData"/>
 <property name="ClosePlanner_YES" value="1" type="GuiHandlerData"/>
 <property name="CmdMsgDialog_MESSAGES" value="2" type="GuiHandlerData"/>
 <property name="CmdMsgDialog_OK" value="2" type="GuiHandlerData"/>
 <property name="CoreTreeTablePanel_CORE_TREE_TABLE" value="16" type="GuiHandlerData"/>
-<property name="FileSetPanel_FILE_SET_PANEL_TREE" value="170" type="GuiHandlerData"/>
+<property name="FileSetPanel_FILE_SET_PANEL_TREE" value="176" type="GuiHandlerData"/>
 <property name="FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE" value="112" type="GuiHandlerData"/>
 <property name="GettingStartedView_CREATE_NEW_PROJECT" value="1" type="GuiHandlerData"/>
 <property name="GettingStartedView_OPEN_PROJECT" value="1" type="GuiHandlerData"/>
@@ -63,12 +64,13 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="MainMenuMgr_CHECKPOINT" value="1" type="GuiHandlerData"/>
 <property name="MainMenuMgr_CONSTRAINTS" value="2" type="GuiHandlerData"/>
 <property name="MainMenuMgr_DESIGN_HUBS" value="1" type="GuiHandlerData"/>
-<property name="MainMenuMgr_EDIT" value="4" type="GuiHandlerData"/>
-<property name="MainMenuMgr_FILE" value="4" type="GuiHandlerData"/>
+<property name="MainMenuMgr_EDIT" value="6" type="GuiHandlerData"/>
+<property name="MainMenuMgr_FILE" value="10" type="GuiHandlerData"/>
 <property name="MainMenuMgr_FLOW" value="2" type="GuiHandlerData"/>
 <property name="MainMenuMgr_HELP" value="2" type="GuiHandlerData"/>
 <property name="MainMenuMgr_IP" value="2" type="GuiHandlerData"/>
-<property name="MainMenuMgr_PROJECT" value="2" type="GuiHandlerData"/>
+<property name="MainMenuMgr_OPEN_RECENT_PROJECT" value="1" type="GuiHandlerData"/>
+<property name="MainMenuMgr_PROJECT" value="5" type="GuiHandlerData"/>
 <property name="MainMenuMgr_TEXT_EDITOR" value="1" type="GuiHandlerData"/>
 <property name="MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN" value="1" type="GuiHandlerData"/>
 <property name="MsgTreePanel_MESSAGE_VIEW_TREE" value="12" type="GuiHandlerData"/>
@@ -77,7 +79,9 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="MsgView_INFORMATION_MESSAGES" value="2" type="GuiHandlerData"/>
 <property name="MsgView_WARNING_MESSAGES" value="7" type="GuiHandlerData"/>
 <property name="PACommandNames_ADD_SOURCES" value="1" type="GuiHandlerData"/>
+<property name="PACommandNames_CLOSE_PROJECT" value="1" type="GuiHandlerData"/>
 <property name="PACommandNames_ON_THE_WEB" value="1" type="GuiHandlerData"/>
+<property name="PACommandNames_OPEN_PROJECT" value="1" type="GuiHandlerData"/>
 <property name="PACommandNames_RECUSTOMIZE_CORE" value="1" type="GuiHandlerData"/>
 <property name="PACommandNames_SCHEMATIC" value="1" type="GuiHandlerData"/>
 <property name="PACommandNames_SIMULATION_LIVE_BREAK" value="32" type="GuiHandlerData"/>
@@ -118,9 +122,9 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="XPG_TabbedPane_TABBED_PANE" value="1" type="GuiHandlerData"/>
 </item>
 <item name="Other">
-<property name="GuiMode" value="36" type="GuiMode"/>
+<property name="GuiMode" value="40" type="GuiMode"/>
 <property name="BatchMode" value="0" type="BatchMode"/>
-<property name="TclMode" value="32" type="TclMode"/>
+<property name="TclMode" value="35" type="TclMode"/>
 </item>
 </section>
 </application>

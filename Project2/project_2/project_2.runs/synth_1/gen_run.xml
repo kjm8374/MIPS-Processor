@@ -1,173 +1,170 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1602991986">
   <File Type="PA-TCL" Name="MIPS_Processor.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="MIPS_Processor_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="MIPS_Processor_reports.tcl"/>
   <File Type="RDS-RDS" Name="MIPS_Processor.vds"/>
   <File Type="RDS-UTIL" Name="MIPS_Processor_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="MIPS_Processor_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="MIPS_Processor.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="MIPS_Processor_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="MIPS_Processor_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="$PPRDIR/../../Project1/LabProject/Project1/Project1.srcs/sources_1/new/BCDSevenSegConverter.vhd">
+    <File Path="$PPRDIR/../../../malho/Project1/LabProject/Project1/Project1.srcs/sources_1/new/BCDSevenSegConverter.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Project1/LabProject/Project1/Project1.srcs/sources_1/new/ControlUnit.vhd">
+    <File Path="$PPRDIR/../../../malho/Project1/LabProject/Project1/Project1.srcs/sources_1/new/ControlUnit.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Project1/LabProject/Project1/Project1.srcs/sources_1/new/DataMemory.vhd">
+    <File Path="$PPRDIR/../../../malho/Project1/LabProject/Project1/Project1.srcs/sources_1/new/DataMemory.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Project1/LabProject/Project1/Project1.srcs/sources_1/new/ExecuteStage.vhd">
+    <File Path="$PPRDIR/../../../malho/Project1/LabProject/Project1/Project1.srcs/sources_1/new/ExecuteStage.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Project1/LabProject/Project1/Project1.srcs/sources_1/new/FullAdder.vhd">
+    <File Path="$PPRDIR/../../../malho/Project1/LabProject/Project1/Project1.srcs/sources_1/new/FullAdder.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Project1/LabProject/Project1/Project1.srcs/sources_1/new/InstrucDecode.vhd">
+    <File Path="$PPRDIR/../../../malho/Project1/LabProject/Project1/Project1.srcs/sources_1/new/InstrucDecode.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Project1/LabProject/Project1/Project1.srcs/sources_1/new/InstrucFetch.vhd">
+    <File Path="$PPRDIR/../../../malho/Project1/LabProject/Project1/Project1.srcs/sources_1/new/InstrucFetch.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Project1/LabProject/Project1/Project1.srcs/sources_1/new/InstrucMemory.vhd">
+    <File Path="$PPRDIR/../../../malho/Project1/LabProject/Project1/Project1.srcs/sources_1/new/InstrucMemory.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Project1/LabProject/Project1/Project1.srcs/sources_1/new/MemoryStage.vhd">
+    <File Path="$PPRDIR/../../../malho/Project1/LabProject/Project1/Project1.srcs/sources_1/new/MemoryStage.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Project1/LabProject/Project1/Project1.srcs/sources_1/new/Multiplier.vhd">
+    <File Path="$PPRDIR/../../../malho/Project1/LabProject/Project1/Project1.srcs/sources_1/new/Multiplier.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Project1/LabProject/Project1/Project1.srcs/sources_1/new/Mux.vhd">
+    <File Path="$PPRDIR/../../../malho/Project1/LabProject/Project1/Project1.srcs/sources_1/new/Mux.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Project1/LabProject/Project1/Project1.srcs/sources_1/new/RegisterFile.vhd">
+    <File Path="$PPRDIR/../../../malho/Project1/LabProject/Project1/Project1.srcs/sources_1/new/RegisterFile.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Project1/LabProject/Project1/Project1.srcs/sources_1/new/RegisterModule.vhd">
+    <File Path="$PPRDIR/../../../malho/Project1/LabProject/Project1/Project1.srcs/sources_1/new/RegisterModule.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Project1/LabProject/Project1/Project1.srcs/sources_1/new/RippleCarryFullAdder.vhd">
+    <File Path="$PPRDIR/../../../malho/Project1/LabProject/Project1/Project1.srcs/sources_1/new/RippleCarryFullAdder.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Project1/LabProject/Project1/Project1.srcs/sources_1/new/WriteBackStage.vhd">
+    <File Path="$PPRDIR/../../../malho/Project1/LabProject/Project1/Project1.srcs/sources_1/new/WriteBackStage.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Project1/LabProject/Project1/Project1.srcs/sources_1/new/alu4.vhd">
+    <File Path="$PPRDIR/../../../malho/Project1/LabProject/Project1/Project1.srcs/sources_1/new/alu4.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Project1/LabProject/Project1/Project1.srcs/sources_1/new/alu_and.vhd">
+    <File Path="$PPRDIR/../../../malho/Project1/LabProject/Project1/Project1.srcs/sources_1/new/alu_and.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Project1/LabProject/Project1/Project1.srcs/sources_1/new/alu_or.vhd">
+    <File Path="$PPRDIR/../../../malho/Project1/LabProject/Project1/Project1.srcs/sources_1/new/alu_or.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Project1/LabProject/Project1/Project1.srcs/sources_1/new/alu_xor.vhd">
+    <File Path="$PPRDIR/../../../malho/Project1/LabProject/Project1/Project1.srcs/sources_1/new/alu_xor.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Project1/LabProject/Project1/Project1.srcs/sources_1/new/genericDecoder.vhd">
+    <File Path="$PPRDIR/../../../malho/Project1/LabProject/Project1/Project1.srcs/sources_1/new/genericDecoder.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Project1/LabProject/Project1/Project1.srcs/sources_1/new/genericMux.vhd">
+    <File Path="$PPRDIR/../../../malho/Project1/LabProject/Project1/Project1.srcs/sources_1/new/genericMux.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Project1/LabProject/Project1/Project1.srcs/sources_1/new/seven_seg_controller.vhd">
+    <File Path="$PPRDIR/../../../malho/Project1/LabProject/Project1/Project1.srcs/sources_1/new/seven_seg_controller.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Project1/LabProject/Project1/Project1.srcs/sources_1/new/sllN.vhd">
+    <File Path="$PPRDIR/../../../malho/Project1/LabProject/Project1/Project1.srcs/sources_1/new/sllN.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Project1/LabProject/Project1/Project1.srcs/sources_1/new/sraN.vhd">
+    <File Path="$PPRDIR/../../../malho/Project1/LabProject/Project1/Project1.srcs/sources_1/new/sraN.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Project1/LabProject/Project1/Project1.srcs/sources_1/new/srlN.vhd">
+    <File Path="$PPRDIR/../../../malho/Project1/LabProject/Project1/Project1.srcs/sources_1/new/srlN.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Project1/LabProject/Project1/Project1.srcs/sources_1/new/two_input_and.vhd">
+    <File Path="$PPRDIR/../../../malho/Project1/LabProject/Project1/Project1.srcs/sources_1/new/two_input_and.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../Project1/LabProject/Project1/Project1.srcs/sources_1/new/MIPS_Processor.vhd">
+    <File Path="$PPRDIR/../../../malho/Project1/LabProject/Project1/Project1.srcs/sources_1/new/MIPS_Processor.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
